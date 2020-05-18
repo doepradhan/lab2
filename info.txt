@@ -1,0 +1,41 @@
+[student@workstation ~]$ lab-configure
+
+This script configures the connection parameters to access the OpenShift cluster for your lab scripts
+
+ · Enter the Master API URL: https://api.ocp-ap3.prod.nextcle.com:6443
+ · Enter the Cluster ID: ed1e5e34-e692-4809-a5d0-8f172fdbf51c
+ · Enter the Wildcard Domain: apps.ocp-ap3.prod.nextcle.com
+ · Enter the Nexus Host: nexus-common.apps.ocp-ap3.prod.nextcle.com
+ · Enter the Developer User name: mustaq-pradhan
+ · Enter the Developer User Password: 7a8d52f94adf4995bf0f
+ · Enter the GitHub Account Name: doepradhan
+ · Enter the Quay.io Account Name: mpradhan
+
+You entered:
+ · Master API URL:			https://api.ocp-ap3.prod.nextcle.com:6443
+ · Cluster ID:				ed1e5e34-e692-4809-a5d0-8f172fdbf51c
+ · Wildcard Domain:			apps.ocp-ap3.prod.nextcle.com
+ · Nexus Server Host:			nexus-common.apps.ocp-ap3.prod.nextcle.com
+ · Developer User Name:			mustaq-pradhan
+ · Developer User Password:		7a8d52f94adf4995bf0f
+ · GitHub Account Name:			doepradhan
+ · Quay.io Account Name:		mpradhan
+
+Verifying your Master API URL...
+
+Verifying your Nexus host...
+
+Verifying your OpenShift developer user credentials...
+
+Verifying your GitHub account name...
+
+Verifying your Quay.io account name...
+
+Verifying your cluster configuration...
+
+Saving your lab configuration file...
+
+Saving your Maven settings file...
+
+All fine, lab config saved. You can now proceed with your exercises.
+
